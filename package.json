@@ -10,7 +10,7 @@
         "seed": "cd backend && yarn strapi import -f ../seed-data.tar.gz",
         "export": "cd backend && yarn strapi export --no-encrypt -f ../seed-data",
         "repo:upstream": "git fetch upstream && git merge upstream/main",
-        "kinsta": "yarn install && yarn setup && cd backend && yarn build && yarn develop && cd .. && yarn dev"
+        "kinsta": "echo test && yarn install && yarn setup && cd backend && yarn build && yarn develop && cd .. && yarn dev"
     },
     "dependencies": {
         "concurrently": "^8.2.2"
